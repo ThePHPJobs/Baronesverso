@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Baronesverso</title>
 <link rel="stylesheet" href="index.css">
+<script src="js/index.js"></script>
 
 </head>
 <body>
@@ -15,15 +16,15 @@
         <ul class="ulnav">  
         <li class="nav"><a href="#blog">Blog</a></li>
        <li class="nav"><a href="#historias">Histórias</a></li>
-        <li class="nav"><a href="#">Fórum</a></li>
+        <li class="nav"><a href="forum.html">Fórum</a></li>
         <li id="lgnav" class="nav"><a href="#submit">Faça Login</a></li>
     </div>
     </ul>
     </nav>
 
 <div class="imagemporta" id="imagemporta">
-    <img class="imageminicio" src="imgs/imgp pa.jpg">
-    
+    <img id="img01" src="imgs/imgp pa.jpg">
+    <img id="img02" src="imgs/Design sem nome.jpg">
     </div>
 </div>
 </header>
@@ -32,26 +33,26 @@
         <div class="Ahistorias">
          <h2 id="historias" class="hh2">Histórias</h2>
          <div class="historias">
-          <div><a href="#"><img class="capa" id="capa1" src="imgs/IMG-20240506-WA0071.jpg" alt=""></a><label  class="labelhistoria1" for="capa1"><a href="#">Suicídio</a></label></div>
+          <div><a href="#"><img class="capa" id="capa1" src="imgs/IMG-20240506-WA0071.jpg" alt=""></a><label  class="labelhistoria1" for="capa1"><a href="#" class="mtf">Suicídio</a></label></div>
           <div><a href="#"><img class="capa" id="capa2" src="imgs/IMG-20240506-WA0072.jpg" alt=""></a><label class="labelhistoria2" for="capa2"><a href="#">Cartas Para o Nada</a></label></a></div>
-           <div><a href="#"><img class="capa" id="capa3"  src="imgs/IMG-20240506-WA0073.jpg" alt=""></a><label class="labelhistoria3" for="capa3"><a href="#">Backrooms</a></label></div>
+           <div><a href="#"><img class="capa" id="capa3"  src="imgs/IMG-20240506-WA0074.jpg" alt=""></a><label class="labelhistoria3" for="capa3"><a href="#">Backrooms</a></label></div>
            <div><a href="#"><img class="capa" id="capa4" src="imgs/IMG-20240506-WA0078.jpg" alt=""></a><label class="labelhistoria4" for="capa4"><a href="#">Mistério Multiversal</a></label></div>
-           
+           <div><a href="#"><img class="capa" id="capa5" src="imgs/IMG-20240511-WA0001.jpg" alt=""></a><label class="labelhistoria5" for="capa5"><a href="#">Pokemón Freedom from Darkness</a></label></div>
         </div>
     </div>
-      
+    
 <div class="blog">
 
     
     
  <div class="pinfo">
- 
+
  <div class="line"></div>
     
     <h2 id="blog" class="blogtitle">Blog Barones</h2>
         
     <h3 class="bkcanonizacao">
-            Backroons e a Canonização no Verso
+            Backrooms e a Canonização no Verso
         </h3>
         <img class="canonizacaobk" src="imgs/IMG-20240506-WA0073.jpg" alt="">
         <p class="pbk">
@@ -81,6 +82,7 @@
         </ul>
      </aside>
 </div>
+<div id="footer">
 <div class="line2"></div>
 </main>
     <footer>
@@ -90,11 +92,11 @@
         <div class="formlogin">
            <h1>Login</h1>
            <p class="pform">Faça seu login e participe dessa<br> linda comunidade.</p>
-            <form>
-            <input id="E-mail" type="email" placeholder="E-mail" required>
-            <input type="password" placeholder="Senha" required>
+            <form id="form">
+            <input id="email" type="email" placeholder="E-mail" required>
+            <input id="password" type="password" placeholder="Senha" required>
             <a class="aform">Esqueceu sua senha?</a>
-            <input id="submit" type="submit" value="Enviar">
+            <input id="submit" type="submit"  value="Enviar">
            <p class="pform2">Não tem uma conta?<a class="aform2" href="#"> Cadastre-se agora.</a></p>
            </form>
 
@@ -103,5 +105,7 @@
         </div>
         
     </footer>
+</div>
+    <script src="script.js"></script>
 </body>
 </html>
