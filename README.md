@@ -1,0 +1,1 @@
+Um projeto para leitores apaixonados por ação, romance, aventura, medo e um mundo de emoções. O Baronesverso é um universo para leitores, possui mais de 10 histórias que se conectam entre si, além de serem criadas por jovens brasileiros. 
