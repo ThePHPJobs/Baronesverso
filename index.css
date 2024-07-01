@@ -463,8 +463,8 @@ margin-top: 10px;
                  .canonizacaobk
                  {
 
-                   width: 285px;
-                   height: 270px;
+                   width: 400px;
+                   height: 285px;
                     
                  }
 
@@ -476,5 +476,12 @@ width: 200px;
                     transition: none;
                     
                 
+                    }
+
+
+                    .textoblog {
+
+                    width: 100%;
+
                     }
 }
